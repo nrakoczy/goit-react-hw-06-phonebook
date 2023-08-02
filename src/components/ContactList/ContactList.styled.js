@@ -23,7 +23,7 @@ export const Button = styled.button`
   padding-top: 3px;
   padding-bottom: 3px;
   margin-left: 10px;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #afabab;
   border-radius: 4px;
   cursor: pointer;
   background-color: transparent;

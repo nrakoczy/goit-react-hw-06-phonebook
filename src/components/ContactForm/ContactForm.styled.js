@@ -21,13 +21,13 @@ export const Label = styled.label`
 export const Input = styled.input`
   width: 200px;
   min-height: 20px;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #afabab;
   border-radius: 3px;
 `;
 
 export const SubmitButton = styled.button`
   margin-top: 10px;
-  border: 1px solid #c4c4c4;
+  border: 1px solid #afabab;
   border-radius: 4px;
   cursor: pointer;
   background-color: transparent;

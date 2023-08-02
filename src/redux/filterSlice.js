@@ -5,12 +5,10 @@ const filterSlice = createSlice({
   initialState: '',
   reducers: {
     setFilter: (state, action) => {
-      return action.payload; // це буде значення фільтра (пошукового запиту)
+      return action.payload;
     },
   },
 });
 
 export const { setFilter } = filterSlice.actions;
 export const filterReducer = filterSlice.reducer;
-
-// Діма Берестень
