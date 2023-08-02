@@ -6,7 +6,7 @@ export const List = styled.ul`
 
 export const Item = styled.li`
   padding-left: 5px;
-  font-size: 17px;
+  font-size: 18px;
 
   &:not(:last-child) {
     margin-bottom: 15px;
@@ -27,10 +27,5 @@ export const Button = styled.button`
   border-radius: 4px;
   cursor: pointer;
   background-color: transparent;
-  transition: background-color 0.5s ease;
-
-  &:hover,
-  &:focus {
-    background-color: #c4c4c4;
   }
 `;
