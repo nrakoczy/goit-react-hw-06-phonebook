@@ -1,11 +1,11 @@
 import { Input, Label } from './Filter.styled';
-import { setFilter } from 'redux/filterSlice'; // цей екшен викликає редюсер
-import { useDispatch, useSelector } from 'react-redux'; // хуки для роботи з редаксом
-import { getFilter } from 'redux/selectors'; // селектори для роботи з редаксом
+import { setFilter } from 'redux/filterSlice'; 
+import { useDispatch, useSelector } from 'react-redux'; 
+import { getFilter } from 'redux/selectors'; 
 
 export const Filter = () => {
   const dispatch = useDispatch();
-  const filter = useSelector(getFilter); // витягує значення фільтра з редакса
+  const filter = useSelector(getFilter); 
 
   return (
     <Label>
@@ -13,10 +13,10 @@ export const Filter = () => {
       <Input
         type="text"
         value={filter}
-        onChange={event => dispatch(setFilter(event.target.value.trim()))} // викликає редюсер з екшеном setFilter
+        onChange={event => dispatch(setFilter(event.target.value.trim()))} 
       />
     </Label>
   );
 };
 
-// Діма Берестень
+
